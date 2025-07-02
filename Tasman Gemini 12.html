@@ -685,7 +685,8 @@
                     <div class="container">
                         <div class="contact-form">
                             <h2>Regístrate para el Evento Exclusivo</h2>
-                            <form action="#" method="POST" onsubmit="trackLeadConversion(); return true;"> <div class="form-group">
+                            <form action="#" method="POST" onsubmit="handleFormSubmission(event);">
+                                <div class="form-group">
                                     <label for="nombre">Nombre completo</label>
                                     <input type="text" id="nombre" name="nombre_completo" required placeholder="Tu nombre y apellido">
                                 </div>
@@ -830,6 +831,35 @@
             $(".form_select").sSelect();
         }
     });
+    </script>
+    <script>
+    function handleFormSubmission(event) {
+        event.preventDefault();
+        const form = event.target;
+        trackLeadConversion();
+        const data = {
+            nombre: form.nombre.value,
+            email: form.email.value,
+            telefono: form.telefono.value,
+            provincia: form.provincia.value,
+            modelo_pickup: form.modelo_pickup.value
+        };
+        fetch('https://example.com/api/tasman-leads', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data)
+        }).then(function(res){
+            if(res.ok){
+                alert('Gracias por registrarte!');
+                form.reset();
+            } else {
+                alert('Hubo un error al registrar. Intenta nuevamente.');
+            }
+        }).catch(function(err){
+            console.error(err);
+            alert('Hubo un error de conexión.');
+        });
+    }
     </script>
     </body>
 </html>
