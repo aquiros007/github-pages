@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="es-CR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Kia Costa Rica | Kia Tasman 4x4 | Pick-up Nueva Generación</title>
+    <meta name="description" content="Descubre la nueva Kia Tasman 4x4 en Costa Rica. Potencia, tecnología y diseño premium para el trabajo y la aventura. Regístrate para el evento VIP de pre-lanzamiento en agosto.">
+    <meta name="keywords" content="Kia Tasman, Kia Costa Rica, pick-up 4x4, camioneta Kia, lanzamiento Kia Tasman, vehículo todoterreno, pick-up premium">
+
+    <meta name="kia_metrics_pagename" content="tasman-lanzamiento-cr">
+
+    <link rel="canonical" href="https://www.kia.com/cr/tasman-lanzamiento.html">
+    <link rel="shortcut icon" href="/content/dam/kwcms/gt/en/images/new/favicon_new.png" type="image/x-icon">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="robots" content="NOODP, NOYDIR">
+
+    <meta property="og:site_name" content="Kia Costa Rica" />
+    <meta property="og:title" content="Kia Tasman Costa Rica | Pick-up 4x4 Nueva Generación" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Descubre la nueva Kia Tasman 4x4 en Costa Rica. Potencia, tecnología y diseño premium para el trabajo y la aventura. Regístrate para el evento VIP de pre-lanzamiento en agosto." />
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/000000/FFFFFF?text=Kia+Tasman+Social" />
+    <meta property="og:url" content="https://www.kia.com/cr/tasman-lanzamiento.html" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="Kia Costa Rica" />
+    <meta name="twitter:title" content="Kia Tasman Costa Rica | Pick-up 4x4 Nueva Generación" />
+    <meta name="twitter:description" content="Descubre la nueva Kia Tasman 4x4 en Costa Rica. Potencia, tecnología y diseño premium para el trabajo y la aventura. Regístrate para el evento VIP de pre-lanzamiento en agosto." />
+    <meta name="twitter:image" content="https://via.placeholder.com/800x418/000000/FFFFFF?text=Kia+Tasman+Twitter" />
+    <meta name="twitter:url" content="https://www.kia.com/cr/tasman-lanzamiento.html" />
+    <meta name="twitter:creator" contents="Kia" />
+
+    <meta itemprop="name" content="Kia Tasman Costa Rica | Pick-up 4x4 Nueva Generación">
+    <meta itemprop="description" content="Conoce la Kia Tasman: potencia, confort y diseño futurista en Costa Rica. Ideal para profesionales, empresarios y aventureros.">
+    <meta itemprop="image" content="https://via.placeholder.com/1200x630/000000/FFFFFF?text=Kia+Tasman+Schema">
+    <meta itemprop="keywords" content="kia tasman, camioneta 4x4, pick-up costa rica, kia nueva, vehiculo trabajo, vehiculo aventura">
+    <meta itemprop="url" content="https://www.kia.com/cr/tasman-lanzamiento.html"/>
+
+    <meta name="facebook-domain-verification" content="hf5k1qzeex14qo5fjllhlyi9xkf3mu" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap'); /* Fuente moderna */
+
+        :root {
+            --kia-red: #D72828;
+            --dark-gray: #1a1a1a;
+            --light-gray: #f5f5f5;
+            --text-color: #333;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        /* Reutilizable para secciones */
+        .section-padding {
+            padding: 40px 20px;
+        }
+
+        /* --- Corrección de viewport y responsividad para móviles y web --- */
+        html, body {
+            width: 100%;
+            min-height: 100%;
+            overflow-x: hidden;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+            box-sizing: border-box;
+        }
+        .hero-section {
+            min-height: 60vh;
+            height: auto;
+            padding: 40px 0 20px 0;
+        }
+        .hero-content {
+            padding: 20px 10px;
+        }
+        .features-grid {
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+        }
+        .feature-item {
+            min-width: 0;
+            word-break: break-word;
+        }
+        .image-container {
+            padding-bottom: 56.25%;
+            height: 0;
+            max-width: 100vw;
+        }
+        .image-container img {
+            width: 100vw;
+            max-width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .subscription-section {
+            padding: 40px 10px;
+            min-height: 40vh;
+        }
+        .subscription-content {
+            font-size: 1.1em;
+            padding: 0 5px;
+        }
+        .contact-form {
+            padding: 20px 5px;
+        }
+
+        /* --- Encabezado --- */
+        header {
+            background-color: var(--dark-gray);
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header .logo img {
+            max-width: 120px;
+            height: auto;
+        }
+
+        /* --- Hero Section --- */
+        .hero-section {
+            position: relative;
+            height: 85vh; /* Ajustable para diferentes pantallas */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: var(--white);
+            overflow: hidden;
+        }
+
+        /* El video se superpondrá a este fondo, pero se mantiene como fallback */
+        .hero-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            z-index: 1;
+            /* Poster del video como fondo estático si el video no carga */
+            background-image: url('/hero.png');
+        }
+        
+        .hero-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100%;
+            min-height: 100%;
+            max-width: 100vw;
+            object-fit: cover;
+            z-index: 1;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Oscurece la imagen para que el texto sea legible */
+            z-index: 2;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 3;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        .hero-content h1 {
+            font-size: 2.8em;
+            margin-bottom: 15px;
+            line-height: 1.2;
+            /* SEO: H1 es la palabra clave principal */
+        }
+
+        .hero-content p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--kia-red);
+            color: var(--white);
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            animation: cta-fadein-up 1s cubic-bezier(0.23, 1, 0.32, 1) both;
+        }
+
+        .cta-button:hover {
+            background-color: #A31E1E;
+        }
+
+        /* --- CTA Animations --- */
+        .cta-button {
+            animation: cta-fadein-up 1s cubic-bezier(0.23, 1, 0.32, 1) both;
+        }
+        .cta-button.pulse {
+            animation: cta-pulse 1.2s infinite alternate;
+        }
+        .cta-button.animated {
+            opacity: 1;
+            transform: translateY(0);
+            transition: opacity 0.7s, transform 0.7s;
+        }
+        .cta-button:not(.animated) {
+            opacity: 0;
+            transform: translateY(40px);
+        }
+        @keyframes cta-fadein-up {
+            0% { opacity: 0; transform: translateY(40px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes cta-pulse {
+            0% { box-shadow: 0 0 0 0 rgba(215,40,40,0.7); }
+            100% { box-shadow: 0 0 0 12px rgba(215,40,40,0); }
+        }
+
+        /* --- Sección de Características --- */
+        .features-section {
+            background-color: var(--white);
+            text-align: center;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .feature-item {
+            background-color: var(--light-gray);
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-item img {
+            width: 80px; /* Tamaño de íconos o miniaturas */
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .feature-item h3 {
+            color: var(--kia-red);
+            font-size: 1.4em;
+            margin-bottom: 10px;
+        }
+
+        .feature-item p {
+            font-size: 0.95em;
+            color: var(--text-color);
+        }
+
+        /* --- Sección de Imagen/Galería (antes Video/Galería) --- */
+        .image-gallery-section { /* Cambiado de .video-gallery-section */
+            background-color: var(--dark-gray);
+            color: var(--white);
+            text-align: center;
+        }
+
+        .image-gallery-section h2 {
+            color: var(--white);
+        }
+
+        .image-container { /* Cambiado de .video-container */
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio para mantener proporciones de la imagen */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+
+        .image-container img { /* Asegura que la imagen se adapte al contenedor */
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Para cubrir el área sin distorsionar */
+        }
+
+        /* --- Sección de Suscripción (tomado del nuevo HTML) --- */
+        .subscription-section {
+            min-height: 50vh; /* Ajustado para móviles, era 'min-h-screen' */
+            background-color: #05141f; /* Color oscuro similar al gradiente */
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .subscription-background {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.7; /* Para que el texto sea legible */
+        }
+
+        .subscription-overlay {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(26, 26, 26, 0.9) 0%, rgba(26, 26, 26, 0.5) 100%); /* Simular to-gray-900/50 */
+            z-index: 1;
+        }
+
+        .subscription-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            font-size: 1.5em; /* Ajustado de 5xl a algo más razonable para un solo bloque */
+            font-weight: 300; /* light */
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+
+        /* --- Sección de Evento VIP --- */
+        .event-section {
+            background-color: var(--light-gray);
+            text-align: center;
+        }
+
+        .event-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .event-content h2 {
+            color: var(--kia-red);
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .event-content p {
+            font-size: 1.1em;
+            margin-bottom: 25px;
+        }
+
+        /* --- Formulario de Contacto --- */
+        .form-section {
+            background-color: var(--white);
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: var(--light-gray);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form h2 {
+            text-align: center;
+            color: var(--dark-gray);
+            margin-bottom: 25px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: var(--text-color);
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="tel"],
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+            box-sizing: border-box; /* Incluye padding y border en el ancho total */
+        }
+
+        .form-group input[type="text"]:focus,
+        .form-group input[type="email"]:focus,
+        .form-group input[type="tel"]:focus,
+        .form-group select:focus {
+            border-color: var(--kia-red);
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(215, 40, 40, 0.2);
+        }
+
+        .form-group button {
+            width: 100%;
+            background-color: var(--kia-red);
+            color: var(--white);
+            padding: 15px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.2em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .form-group button:hover {
+            background-color: #A31E1E;
+        }
+
+        /* --- Footer --- */
+        footer {
+            background-color: var(--dark-gray);
+            color: var(--white);
+            text-align: center;
+            padding: 25px 0;
+            font-size: 0.9em;
+        }
+
+        footer .social-icons img {
+            width: 24px; /* Ajusta el tamaño de los íconos */
+            height: 24px;
+            margin: 0 8px;
+            vertical-align: middle;
+        }
+
+        /* --- Responsividad --- */
+        @media (max-width: 768px) {
+            .hero-content h1 {
+                font-size: 2em;
+            }
+
+            .hero-content p {
+                font-size: 1em;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr; /* Una columna en móviles */
+            }
+
+            .section-padding {
+                padding: 30px 15px;
+            }
+            .subscription-content {
+                font-size: 1.2em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-section {
+                min-height: 30vh;
+                padding: 10px 0 5px 0;
+            }
+
+            .hero-content h1 {
+                font-size: 1.1em;
+            }
+
+            .cta-button {
+                padding: 10px 10px;
+                font-size: 0.95em;
+            }
+
+            .feature-item h3 {
+                font-size: 1em;
+            }
+
+            .form-group button {
+                font-size: 1em;
+            }
+        }
+    </style>
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M927RBN');</script>
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:2049234,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-MKQ6VMZ');</script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-5N7RHR2D');</script>
+    <script>
+    (function(w,d,u){
+    var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+    var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+    })(window,document,'https://cdn.bitrix24.com/b7411873/crm/site_button/loader_3_etjoue.js');
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-822082911"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-822082911');
+    </script>
+    <script type="text/javascript">
+    _linkedin_partner_id = "3716785";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+    <script type="text/javascript">
+    (function(l) {
+    if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+    window.lintrk.q=[]}
+    var s = document.getElementsByTagName("script")[0];
+    var b = document.createElement("script");
+    b.type = "text/javascript";
+    b.async = true;
+    b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+    s.parentNode.insertBefore(b, s);})(window.lintrk);
+    </script>
+    <noscript>
+    <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=3716785&fmt=gif"/>
+    </noscript>
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'YOUR_PIXEL_ID'); // REEMPLAZA CON TU ID REAL
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"
+    /></noscript>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YOUR_GA4_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YOUR_GA4_MEASUREMENT_ID'); // REEMPLAZA CON TU ID REAL
+    </script>
+
+</head>
+<body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M927RBN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKQ6VMZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5N7RHR2D" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <div id="wrap" class="wsg_main"> <header id="header" class="main_header">
+            <div class="header_in">
+                <div class="logo_h1">
+                    <a href="https://www.kia.com/cr/main.html" class="lg_a">
+                        <img src="https://www.kia.com/content/dam/kwcms/gt/en/images/main/new/new-kia-logo-white.png" alt="Logo Kia Costa Rica">
+                    </a>
+                </div>
+                </div>
+        </header>
+
+        <div id="container">
+            <div id="content" class="main_inner">
+                <h1 class="visuallyhidden">Kia Tasman, la nueva pick-up 4x4 en Costa Rica</h1> <section class="hero-section">
+                    <video class="hero-video" autoPlay="" loop="" muted="" playsInline="" poster="/hero.png">
+                        <source src="https://kia-tasman.com/strapi/uploads/hero_ee47e74ca5.mp4" type="video/mp4"/>
+                        Tu navegador no soporta el tag de video.
+                    </video>
+                    <div class="hero-overlay"></div>
+                    <div class="hero-content">
+                        <h1>Kia Tasman: Redefine la Aventura en Costa Rica</h1>
+                        <p>Potencia, estilo y tecnología se unen para llevarte más allá. <br>¡Prepárate para lo inesperado!</p>
+                        <a href="#registro" class="cta-button">Regístrate y vive la experiencia Tasman</a>
+                    </div>
+                </section>
+
+                <hr style="border: none; border-top: 1px solid #eee; margin: 40px auto; width: 80%;">
+
+                <section class="features-section section-padding">
+                    <div class="container">
+                        <h2>Capacidad sin límites, tecnología que te acompaña</h2>
+                        <p>Descubre lo que hace al Kia Tasman una pick-up diferente:</p>
+                        <div class="features-grid">
+                            <div class="feature-item">
+                                <img src="https://via.placeholder.com/80x80/D72828/FFFFFF?text=Motor" alt="Motor turbodiésel 2.2L del Kia Tasman">
+                                <h3>Potencia Imparable</h3>
+                                <p>Motor turbodiésel 2.2L y tracción 4WD inteligente para conquistar cualquier camino en Costa Rica.</p>
+                            </div>
+                            <div class="feature-item">
+                                <img src="https://via.placeholder.com/80x80/D72828/FFFFFF?text=Tecno" alt="Pantalla multimedia de 12.3 pulgadas con Apple CarPlay y Android Auto en Kia Tasman">
+                                <h3>Conectividad Superior</h3>
+                                <p>Pantalla multimedia de 12.3” con Android Auto y Apple CarPlay para que estés siempre conectado.</p>
+                            </div>
+                            <div class="feature-item">
+                                <img src="https://via.placeholder.com/80x80/D72828/FFFFFF?text=Seguro" alt="Sistemas de Asistencia Avanzada a la Conducción (ADAS) en Kia Tasman">
+                                <h3>Seguridad de Vanguardia</h3>
+                                <p>Asistentes de conducción ADAS para tu tranquilidad en cada viaje.</p>
+                            </div>
+                            <div class="feature-item">
+                                <img src="https://via.placeholder.com/80x80/D72828/FFFFFF?text=Carga" alt="Capacidad de carga superior a 1 tonelada de Kia Tasman">
+                                <h3>Lista para el Trabajo</h3>
+                                <p>Capacidad de carga de más de 1 tonelada, ideal para tus proyectos y aventuras.</p>
+                            </div>
+                            <div class="feature-item">
+                                <img src="https://via.placeholder.com/80x80/D72828/FFFFFF?text=Diseño" alt="Diseño agresivo con luces LED futuristas de Kia Tasman">
+                                <h3>Diseño Que Impresiona</h3>
+                                <p>Líneas futuristas y luces LED tipo “C” que te harán destacar en cualquier lugar.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <hr style="border: none; border-top: 1px solid #eee; margin: 40px auto; width: 80%;">
+
+                <section class="image-gallery-section section-padding">
+                    <div class="container">
+                        <h2>El Tasman en Acción: Una Mirada Exclusiva</h2>
+                        <p>Observa la potencia, el confort y la versatilidad de la Kia Tasman en su elemento.</p>
+                        <div class="image-container">
+                            <img alt="Kia Tasman para aquellos que no temen las aventuras difíciles"
+                                src="https://kia-tasman.com/_next/image?url=%2Fplaceholders%2Flifestyle%2Fbumpy.webp&w=3840&q=75"
+                                srcset="https://kia-tasman.com/_next/image?url=%2Fplaceholders%2Flifestyle%2Fbumpy.webp&w=1920&q=75 1x, https://kia-tasman.com/_next/image?url=%2Fplaceholders%2Flifestyle%2Fbumpy.webp&w=3840&q=75 2x"
+                                class="w-full h-full object-cover"
+                                style="color: transparent;">
+                        </div>
+                    </div>
+                </section>
+
+                <hr style="border: none; border-top: 1px solid #eee; margin: 40px auto; width: 80%;">
+
+                <section class="subscription-section">
+                    <img alt="Fondo de suscripción para recibir actualizaciones del Kia Tasman" class="subscription-background" src="https://kia-tasman.com/_next/image?url=%2Fsubscription-bg.png&w=3840&q=75" />
+                    <div class="subscription-overlay"></div>
+                    <div class="subscription-content">
+                        Be the first to hear about exclusive Tasman updates.
+                    </div>
+                </section>
+
+                <hr style="border: none; border-top: 1px solid #eee; margin: 40px auto; width: 80%;">
+
+                <section class="event-section section-padding">
+                    <div class="container event-content">
+                        <h2>Sé uno de los primeros en conocer el Kia Tasman</h2>
+                        <p>Te invitamos a un **evento VIP de pre-lanzamiento exclusivo** este agosto, diseñado para clientes seleccionados en Costa Rica. Vive de cerca la experiencia Tasman, explora cada detalle y sé testigo del futuro de las pick-ups.</p>
+                        <p>¡Solo unos pocos tendrán esta oportunidad! **Regístrate ahora** para asegurar tu lugar y ser parte de este momento histórico para Kia.</p>
+                        <a href="#registro" class="cta-button">Regístrate y vive la experiencia Tasman</a>
+                    </div>
+                </section>
+
+                <section id="registro" class="form-section section-padding">
+                    <div class="container">
+                        <div class="contact-form">
+                            <h2>Regístrate para el Evento Exclusivo</h2>
+                            <form action="#" method="POST" onsubmit="trackLeadConversion(); return true;"> <div class="form-group">
+                                    <label for="nombre">Nombre completo</label>
+                                    <input type="text" id="nombre" name="nombre_completo" required placeholder="Tu nombre y apellido">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Correo electrónico</label>
+                                    <input type="email" id="email" name="correo_electronico" required placeholder="tu_correo@ejemplo.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="telefono">Número de teléfono</label>
+                                    <input type="tel" id="telefono" name="numero_telefono" required placeholder="8888-8888 o 2222-2222">
+                                </div>
+                                <div class="form-group">
+                                    <label for="modelo_pickup">Modelo de pick-up que posee actualmente</label>
+                                    <select id="modelo_pickup" name="modelo_pickup_actual" required>
+                                        <option value="">Seleccione una opción</option>
+                                        <option value="Hilux">Toyota Hilux</option>
+                                        <option value="L200">Mitsubishi L200</option>
+                                        <option value="Ranger">Ford Ranger</option>
+                                        <option value="Navara">Nissan Navara/Frontier</option>
+                                        <option value="Colorado">Chevrolet Colorado</option>
+                                        <option value="Amarok">Volkswagen Amarok</option>
+                                        <option value="Otro">Otro</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit">Regístrate y vive la experiencia Tasman</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+        
+        <footer id="footer">
+            <div class="site_info">
+                <div class="f_navi">
+                    <div class="inner">
+                        <div class="foot_content">
+                            <div class="foot_left">
+                                <div class="foot_logo">
+                                    <span class="logo"><img src="https://www.kia.com/content/dam/kwcms/gt/en/images/main/new/new-kia-logo-white.png" alt="logo Kia"></span>
+                                </div>
+                                <div class="info_country">
+                                    <a href="https://www.kia.com/cr/concesionarios.html" target="_blank" rel="noopener noreferrer">Concesionarios Kia Costa Rica</a>
+                                    <br>
+                                    <a href="https://www.kia.com/cr/servicio.html" target="_blank" rel="noopener noreferrer">Servicio Kia Costa Rica</a>
+                                    <br>
+                                    <a href="https://www.kia.com/cr/contacto.html" target="_blank" rel="noopener noreferrer">Contacto Kia Costa Rica</a>
+                                </div>
+                                <div class="info_sns social-icons">
+                                    <a href="https://www.instagram.com/kiacroficial/" target="_blank" rel="noopener noreferrer" title="Instagram">
+                                        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" style="background:#fff;border-radius:6px;width:28px;height:28px;padding:2px;"> Instagram
+                                    </a>
+                                    <a href="https://www.youtube.com/channel/UCnqsOm5sJkEbNhY_LOEtVIw" target="_blank" rel="noopener noreferrer" title="YouTube">
+                                        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="YouTube" style="background:#fff;border-radius:6px;width:28px;height:28px;padding:2px;"> YouTube
+                                    </a>
+                                    <a href="https://www.facebook.com/KiaCR" target="_blank" rel="noopener noreferrer" title="Facebook">
+                                        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" style="background:#fff;border-radius:6px;width:28px;height:28px;padding:2px;"> Facebook
+                                    </a>
+                                    <a href="https://twitter.com/KiaCROficial" target="_blank" rel="noopener noreferrer" title="X (Twitter)">
+                                        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="X (Twitter)" style="background:#fff;border-radius:6px;width:28px;height:28px;padding:2px;"> X
+                                    </a>
+                                    <a href="https://www.linkedin.com/company/kia-middle-east-africa/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                                        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" style="background:#fff;border-radius:6px;width:28px;height:28px;padding:2px;"> LinkedIn
+                                    </a>
+                                    <a href="https://www.snapchat.com/add/kia-mea" target="_blank" rel="noopener noreferrer" title="Snapchat">
+                                        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/snapchat.svg" alt="Snapchat" style="background:#fff;border-radius:6px;width:28px;height:28px;padding:2px;"> Snapchat
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="foot_copy_area">
+                            <div class="copyright">
+                                <address class="cpr">
+                                    <span class="br">Copyright© 2025 Kia Corporation. Todos los Derechos Reservados.</span>
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="gnb_dimmed" style="position: absolute;"></div>
+    </div>
+
+    <script>
+        function trackLeadConversion() {
+            // Envío de evento de conversión a Google Ads
+            // Reemplaza 'AW-YOUR_CONVERSION_ID/YOUR_CONVERSION_LABEL' con tu etiqueta de evento de conversión de Google Ads
+            if (typeof gtag === 'function') {
+                gtag('event', 'conversion', {
+                    'send_to': 'AW-822082911/YOUR_TASMAN_LEAD_LABEL', // **AJUSTA ESTO CON LA ETIQUETA ESPECÍFICA PARA LEADS DEL TASMAN**
+                    'value': 0.0, // O un valor monetario si aplica
+                    'currency': 'USD'
+                });
+            }
+            // Envío de evento de "Lead" a Meta Pixel
+            if (typeof fbq === 'function') {
+                fbq('track', 'Lead');
+            }
+            // Envío de evento personalizado a DataLayer para GA4/Adobe (si se gestiona vía GTM)
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({
+                'event': 'form_submission',
+                'form_name': 'tasman_pre_lanzamiento',
+                'event_category': 'Leads',
+                'event_action': 'Registro Exitoso',
+                'event_label': 'Formulario Kia Tasman VIP'
+            });
+            // Si Adobe Analytics está configurado vía DTM, también puedes añadir:
+            // dtmDataLayer.event = 'lead_tasman_vip';
+            // _satellite.track('lead_tasman_vip'); // Disparar el evento en Adobe DTM
+        }
+
+        // Animación dinámica para CTA
+        function animateCTAOnScroll() {
+            const ctas = document.querySelectorAll('.cta-button');
+            const observer = new window.IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animated', 'pulse');
+                    } else {
+                        entry.target.classList.remove('animated', 'pulse');
+                    }
+                });
+            }, { threshold: 0.5 });
+            ctas.forEach(cta => {
+                observer.observe(cta);
+            });
+        }
+        document.addEventListener('DOMContentLoaded', animateCTAOnScroll);
+    </script>
+
+    <script type="text/javascript" src="/etc/designs/kia-costarica/clientlib/js/jquery.form.stylishSelect.min.js"></script>
+    <script type="text/javascript" src="/etc/designs/kia-costarica/clientlib/js/picturefill.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        //stylish selectbox init
+        if ($(".form_select").length > 0) {
+            $(".form_select").sSelect();
+        }
+    });
+    </script>
+    </body>
+</html>
